@@ -6,5 +6,6 @@
 
 | Terminal command|
 |-----------------|
-| 1.`git config --global user.name <name> `|           
-|                 |       
+| 1. `git config --global user.name`|           
+| 2. `git config --global user.email`|                    
+| 
