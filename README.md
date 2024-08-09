@@ -59,8 +59,11 @@
 |View the differences between two comments: `git diff "commit1" "commit2"`|Просмотр различий между двумя комментами: `git diff "commit1" "commit2"`|
 |View differences for a specific: `it diff "name_file"`                   |Просмотр различий для конкретного файла: `git diff "имя_файла"`         |
 
-|**Command for switching between branches**            |    **Команда для переключения между ветками** |
-|------------------------------------------------------|-----------------------------------------------|
+|**Command for switching between branches**                               |   **Команда для переключения между ветками**                             |
+|-------------------------------------------------------------------------|--------------------------------------------------------------------------|
+|Switching to another branch: `git checkout "branch"`                     |Переключение на другую ветку: `git checkout "branch"`                     |
+|Creating a new branch and switching to it: `git checkout -b "new_branch"`|Создание новой ветки и переключение на неё: `git checkout -b "new_branch"`|
+|Switch to a specific commit: `git checkout "commit"`                     |Переключение на определённый коммит: `git checkout "commit"`              |
 
 |**Command for managing branches in a repository**     |   **Команда для управления ветками в репозитории** |
 |------------------------------------------------------|----------------------------------------------------|
