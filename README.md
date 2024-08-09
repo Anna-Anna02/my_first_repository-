@@ -65,8 +65,16 @@
 |Creating a new branch and switching to it: `git checkout -b "new_branch"`|Создание новой ветки и переключение на неё: `git checkout -b "new_branch"`|
 |Switch to a specific commit: `git checkout "commit"`                     |Переключение на определённый коммит: `git checkout "commit"`              |
 
-|**Command for managing branches in a repository**     |   **Команда для управления ветками в репозитории** |
-|------------------------------------------------------|----------------------------------------------------|
+|**Command for managing branches in a repository**                  |   **Команда для управления ветками в репозитории**                  |
+|-------------------------------------------------------------------|---------------------------------------------------------------------|
+|Viewing a list of branches: `git branch`                           |Просмотр списка веток: `git branch`                                  |
+|Creating a new branch: `git branch "new_branch_name"`              |Создание новой ветки: `git branch "имя_новой_ветки"`                 |
+|Deleting a branch: `git branch -d "branch_name"`                   |Удаление ветки: `git branch -d "имя_ветки"`                          | 
+|Forcibly deleting a branch: `git branch -D "branch_name"`          |Принудительное удаление ветки: `git branch -D "имя_ветки"`           |
+|Renaming a branch: `git branch -m "old_name" "new_name"`           |Переименование ветки: `git branch -m "старое_имя" "новое_имя"`       |
+|Viewing deleted branches: `git branch -r`                          |Просмотр удаленных веток: `git branch -r`                            |
+|Viewing all branches (local and deleted): `git branch -a`          |Просмотр всех веток (локальных и удаленных): `git branch -a`         |
+|Create a branch and switch to it: `git branch -b "new_branch_name"`|Создание ветки и переключение на нее: git branch -b "имя_новой_ветки"|
 
 |**Command for managing branches in a repository**     |   **Команда для управления ветками в репозитории** |
 |------------------------------------------------------|----------------------------------------------------|
