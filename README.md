@@ -21,7 +21,7 @@
 |MacOS, Linux:  `pwd`                  |MacOS, Linux:  `pwd`                      |
 |Windows:  `cd`                        |Windows:  `cd`                            |
 
-|**Command listing  current directory**| **Команда листинг текущий директории**  |
+|**Command listing  current directory**| **Команда листинг текущий директории**   |
 |--------------------------------------|------------------------------------------|
 |MacOS, Linux: `ls`                    |MacOS, Linux: `ls`                        |
 | Windows: `dir`                       |Windows: `dir`                            |
@@ -48,10 +48,10 @@
 | `git add` - add all changes in the current directory |`git add` - для добавления всех изменений в текущей директорию|
 | `git add "name_file"` -  add a specific file         |`git add "имя_файла"` - для добавления конкретного файла      | 
 
-| **Command commit to save changes to repository**                     | **Команда фиксация сохранения изменений в репозитории** |
-|----------------------------------------------------------------------|---------------------------------------------------------|
+| **Command commit to save changes to repository**                     | **Команда фиксация сохранения изменений в репозитории**             |
+|----------------------------------------------------------------------|---------------------------------------------------------------------|
 |`git commit -m "comment message"` Creating a comment with a message   | `git commit -m "Сообщение коммента"` Создание коммента с сообщением |
-|`git commit --amend` - Correcting the last comment                    | `git commit --amend` - Исправление последнего коммента  |
+|`git commit --amend` - Correcting the last comment                    | `git commit --amend` - Исправление последнего коммента              |
 
 |**Command  view states in repository**                                   |  **Команда просмотр состояниями в репозитория**                        |
 |-------------------------------------------------------------------------|------------------------------------------------------------------------|
@@ -75,9 +75,6 @@
 |Viewing deleted branches: `git branch -r`                          |Просмотр удаленных веток: `git branch -r`                            |
 |Viewing all branches (local and deleted): `git branch -a`          |Просмотр всех веток (локальных и удаленных): `git branch -a`         |
 |Create a branch and switch to it: `git branch -b "new_branch_name"`|Создание ветки и переключение на нее: git branch -b "имя_новой_ветки"|
-
-|**Command for managing branches in a repository**     |   **Команда для управления ветками в репозитории** |
-|------------------------------------------------------|----------------------------------------------------|
 
 |**Сommand to merge changes from different branches**  |   **Команда для объединения изменений из разных веток**|
 |------------------------------------------------------|--------------------------------------------------------|
