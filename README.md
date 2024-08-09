@@ -65,6 +65,7 @@
 |Creating a new branch and switching to it: `git checkout -b "new_branch"`|Создание новой ветки и переключение на неё: `git checkout -b "new_branch"`|
 |Switch to a specific commit: `git checkout "commit"`                     |Переключение на определённый коммит: `git checkout "commit"`              |
 
+<<<<<<< HEAD
 |**Command for managing branches in a repository**                  |   **Команда для управления ветками в репозитории**                  |
 |-------------------------------------------------------------------|---------------------------------------------------------------------|
 |Viewing a list of branches: `git branch`                           |Просмотр списка веток: `git branch`                                  |
@@ -75,6 +76,18 @@
 |Viewing deleted branches: `git branch -r`                          |Просмотр удаленных веток: `git branch -r`                            |
 |Viewing all branches (local and deleted): `git branch -a`          |Просмотр всех веток (локальных и удаленных): `git branch -a`         |
 |Create a branch and switch to it: `git branch -b "new_branch_name"`|Создание ветки и переключение на нее: git branch -b "имя_новой_ветки"|
+=======
+|**Command for managing branches in a repository**                    |   **Команда для управления ветками в репозитории**                    |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------|
+|View the list of branches: `git branch`                              |Просмотр списка веток:` git branch`                                    |
+|Create a new branch: `git branch "new_branch_name"`                  |Создание новой ветки: `git branch "имя_новой_ветки"`                   |
+|Deleting a branch: `git branch -d "branch_name"`                     |Удаление ветки: `git branch -d "имя_ветки"`                            |
+|Forced deletion of a branch: `git branch -D "branch_name"`           |Принудительное удаление ветки: `git branch -D "имя_ветки"`             |
+|Rename a branch: `git branch -m "old_name" "new_name"`               |Переименование ветки: `git branch -m "старое_имя" "новое_имя"`         |
+|View deleted branches: `git branch -r`                               |Просмотр удаленных веток: `git branch -r`                              |
+|View all branches (local and remote): `git branch -a`                |Просмотр всех веток (локальных и удаленных): `git branch -a`           |
+|Create a branch and switch to it: `git branch -b "new_branch_name"`  |Создание ветки и переключение на нее: `git branch -b "имя_новой_ветки"`|
+>>>>>>> Вручную добавил текст из конфликта
 
 |**Сommand to merge changes from different branches**  |   **Команда для объединения изменений из разных веток**|
 |------------------------------------------------------|--------------------------------------------------------|
