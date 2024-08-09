@@ -53,8 +53,11 @@
 |`git commit -m "comment message"` Creating a comment with a message   | `git commit -m "Сообщение коммента"` Создание коммента с сообщением |
 |`git commit --amend` - Correcting the last comment                    | `git commit --amend` - Исправление последнего коммента  |
 
-|**Command  view states in repository**                |  **Команда просмотр состояниями в репозитория** |
-|------------------------------------------------------|-------------------------------------------------|
+|**Command  view states in repository**                                   |  **Команда просмотр состояниями в репозитория**                        |
+|-------------------------------------------------------------------------|------------------------------------------------------------------------|
+|Comparison with the last comment: `git diff`                             |Сравнение с последним комментом: `git diff`                             |
+|View the differences between two comments: `git diff "commit1" "commit2"`|Просмотр различий между двумя комментами: `git diff "commit1" "commit2"`|
+|View differences for a specific: `it diff "name_file"`                   |Просмотр различий для конкретного файла: `git diff "имя_файла"`         |
 
 |**Command for switching between branches**            |    **Команда для переключения между ветками** |
 |------------------------------------------------------|-----------------------------------------------|
