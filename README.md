@@ -4,10 +4,7 @@
 
 #### Дополнительные опции +.
 
-|**Git Config**  |**Git Конфигурация**|
-|----------------|---------------------|
-
-|   **Git Terminal command**     |    **Команда Терминала Git**
+|**Git Config**                  |**Git Конфигурация**|
 |--------------------------------|--------------------------------|
 |`git config --global user.name` |`git config --global user.имя`  |  
 |`git config --global user.email`|`git config --global user.почта`|
