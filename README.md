@@ -9,14 +9,17 @@
 |`git config --global user.name` |`git config --global user.имя`  |  
 |`git config --global user.email`|`git config --global user.почта`|
 
+
 |**Change directory command** |**Команда изменения директории**|
 |-----------------------------|--------------------------------|
 |`git cd c:\folder_name`      |`git cd c:\Имя_папки`           |
+
 
 |**Current directory display command** |**Команда отображения текущей директории**|
 |--------------------------------------|------------------------------------------|
 |MacOS, Linux:  `pwd`                  |MacOS, Linux:  `pwd`                      |
 |Windows:  `cd`                        |Windows:  `cd`                            |
+
 
 |**Command listing  current directory**| **Команда листинг текущий директории**   |
 |--------------------------------------|------------------------------------------|
